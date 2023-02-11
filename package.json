@@ -1,0 +1,25 @@
+{
+  "name": "demoonecrash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json --port 7000",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinmaydonkar/demoOnecrash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinmaydonkar/demoOnecrash/issues"
+  },
+  "homepage": "https://github.com/chinmaydonkar/demoOnecrash#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
